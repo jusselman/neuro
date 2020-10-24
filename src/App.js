@@ -12,7 +12,7 @@ function App() {
           <Home
           />
         } />
-        <Route exact path='/about' render={() =>
+        <Route path='/about' render={() =>
           <About
           />
         } />
