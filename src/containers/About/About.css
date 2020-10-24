@@ -1,0 +1,104 @@
+.About {
+    width: 100%;
+    overflow: hidden;
+    animation: fadeInBg 2s;
+}
+
+.AboutImgCtn {
+    height: 50vh;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    background-image:
+        linear-gradient(to top, rgba(5, 23, 33, 1), rgba(146, 222, 255, 0.3)),
+        url('https://i.imgur.com/iwTWCLg.jpg');
+    background-repeat: no-repeat;
+}
+
+.AboutRow {
+    display: flex;
+    margin-top: -175px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.AboutImg {
+    height: 300px;
+    width: 400px;
+    background-color: var(--main-bg-color);
+    border-radius: 50%;
+    position: relative;
+    animation: fadeIn 1.5s ease-in;
+}
+
+.AboutProfileImg {
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeInBg 1.75s ease-in;
+}
+
+.AboutDesc1 {
+    color: var(--main-text-color);
+    font-size: 36px;
+    animation: fadeIn 2s ease-in;
+
+}
+
+.AboutDesc2 {
+    color: var(--main-text-color);
+    font-size: 36px;
+    animation: fadeIn 2.25s ease-in;
+}
+
+.AboutContentHeader {
+    color: var(--main-text-color);
+    text-align: center;
+    margin: 30px auto;
+    animation: fadeIn 2.5s ease-in;
+}
+
+.AboutContent {
+    color: var(--main-text-color);
+    font-size: 30px;
+    text-align: center;
+    margin: 0 100px;
+    animation: fadeIn 2.5s ease-in;
+}
+
+.AboutHomeLink {
+    color: var(--main-text-color);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        filter: blur(40px);
+        transform: scale(2);
+    }
+
+    100% {
+        opacity: 1;
+        filter: blur(0);
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInBg {
+    0% {
+        opacity: 0;
+        filter: blur(20px);
+    }
+
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}

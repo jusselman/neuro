@@ -1,0 +1,73 @@
+.Home {
+    background: url('https://i.imgur.com/HvuiGCT.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    animation: fadeInBg 2s;
+}
+
+.HomeHeaderCtn {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    transform: translate(-10%, -35%);
+}
+
+
+h1.HomeHeader {
+    color: var(--main-text-color);
+    margin: 0 auto;
+    font-size: 60px;
+    animation: fadeIn 2s ease-in;
+    margin-bottom: 1.5rem;
+}
+
+.HomeSubHeader {
+    color: var(--main-text-color);
+    text-align: center;
+    transition: .3s all;
+    color: var(--main-text-color);
+    width: 100px;
+    margin: 0 auto;
+    animation: fadeIn 3s ease-in;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+}
+
+.HomeSubHeader:hover {
+    transform: scale(1.05);
+    filter: blur(3px);
+}
+
+.HomeBgImg {
+    position: absolute;
+    transform: translateX(50%);
+    height: 100vh;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        filter: blur(40px);
+        transform: scale(2);
+    }
+
+    100% {
+        opacity: 1;
+        filter: blur(0);
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInBg {
+    0% {
+        opacity: 0;
+        filter: blur(20px);
+    }
+
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
