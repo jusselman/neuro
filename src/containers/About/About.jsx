@@ -10,7 +10,7 @@ export const About = () => {
                 </div>
                 <div className="AboutRow">
                     <div className="AboutImg">
-                        <img src='https://i.imgur.com/u9aGzBG.jpg' className="AboutProfileImg" />
+                        <img src='https://i.imgur.com/u9aGzBG.jpg' className="AboutProfileImg" alt="avatar" />
                     </div>
                     <p className="AboutDesc1">PI: Angela Yu<br></br>Associate Professor<br></br>ajyu@ucsd.edu</p>
                     <p className="AboutDesc2">SSRB 246<br></br>Department of Cognitive Science<br></br>University of California San Diego</p>
