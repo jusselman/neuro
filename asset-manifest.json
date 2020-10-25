@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/neuro/static/css/main.cc248894.chunk.css",
-    "main.js": "/neuro/static/js/main.d4ed7273.chunk.js",
-    "main.js.map": "/neuro/static/js/main.d4ed7273.chunk.js.map",
+    "main.css": "/neuro/static/css/main.3035becb.chunk.css",
+    "main.js": "/neuro/static/js/main.a0c5d293.chunk.js",
+    "main.js.map": "/neuro/static/js/main.a0c5d293.chunk.js.map",
     "runtime-main.js": "/neuro/static/js/runtime-main.b27db79e.js",
     "runtime-main.js.map": "/neuro/static/js/runtime-main.b27db79e.js.map",
     "static/js/2.0d69b078.chunk.js": "/neuro/static/js/2.0d69b078.chunk.js",
     "static/js/2.0d69b078.chunk.js.map": "/neuro/static/js/2.0d69b078.chunk.js.map",
     "index.html": "/neuro/index.html",
-    "precache-manifest.c4cc3b52a1fd9b8bfdeb155119fdb2bb.js": "/neuro/precache-manifest.c4cc3b52a1fd9b8bfdeb155119fdb2bb.js",
+    "precache-manifest.7953a6a7f766a4c1046f694ecbbe180c.js": "/neuro/precache-manifest.7953a6a7f766a4c1046f694ecbbe180c.js",
     "service-worker.js": "/neuro/service-worker.js",
-    "static/css/main.cc248894.chunk.css.map": "/neuro/static/css/main.cc248894.chunk.css.map",
+    "static/css/main.3035becb.chunk.css.map": "/neuro/static/css/main.3035becb.chunk.css.map",
     "static/js/2.0d69b078.chunk.js.LICENSE.txt": "/neuro/static/js/2.0d69b078.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b27db79e.js",
     "static/js/2.0d69b078.chunk.js",
-    "static/css/main.cc248894.chunk.css",
-    "static/js/main.d4ed7273.chunk.js"
+    "static/css/main.3035becb.chunk.css",
+    "static/js/main.a0c5d293.chunk.js"
   ]
 }
