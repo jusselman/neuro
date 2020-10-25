@@ -8,14 +8,16 @@ function App() {
   return (
     <div>
       <Switch>
-        <Route exact path='/' render={() =>
+        {/* <Route exact path='/' render={() =>
           <Home
           />
         } />
-        <Route path='/about' render={() =>
+        <Route exact path='/about' render={() =>
           <About
           />
-        } />
+        } /> */}
+        <Route path='/about' component={About} />
+        <Route path='/neuro' exact component={Home} />
       </Switch>
     </div>
   );

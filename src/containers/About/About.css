@@ -69,11 +69,23 @@
     animation: fadeIn 2.5s ease-in;
 }
 
+.AboutHomeLinkCtn {
+    width: fit-content;
+    margin: 50px auto;
+}
+
+
 .AboutHomeLink {
     color: var(--main-text-color);
     font-size: 30px;
     text-align: center;
     text-decoration: none;
+    transition: .3s ease-in;
+}
+
+.AboutHomeLink:hover {
+    transform: scale(1.05);
+    filter: blur(3px);
 }
 
 
