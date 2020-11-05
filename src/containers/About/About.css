@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     background-image:
-        linear-gradient(to top, rgba(5, 23, 33, 1), rgba(146, 222, 255, 0.3)),
+        linear-gradient(to top, rgba(111, 196, 235, 1), rgba(18, 64, 84, 0.3)),
         url('https://i.imgur.com/iwTWCLg.jpg');
     background-repeat: no-repeat;
 }

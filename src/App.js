@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './containers/Home/Home';
 import About from './containers/About/About';
+import Teaching from './containers/Teaching/Teaching';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
           />
         } /> */}
         <Route path='/about' component={About} />
+        <Route path='/teaching' component={Teaching} />
         <Route path='/neuro' exact component={Home} />
       </Switch>
     </div>

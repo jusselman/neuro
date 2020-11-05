@@ -1,0 +1,46 @@
+.Teaching {
+    color: var(--main-text-color);
+    animation: fadeInBg 2s;
+}
+
+.TeachingImgCtn {
+    height: 50vh;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    background-image:
+        linear-gradient(to top, rgba(111, 196, 235, 1), rgba(18, 64, 84, 0.3)),
+        url('https://i.imgur.com/PKCFeqi.jpg');
+    background-repeat: no-repeat;
+}
+
+.TeachingContentCtn {
+    margin: -75px 100px;
+    animation: fadeIn 1.5s ease-in;
+}
+
+.TeachingLink {
+    color: var(--main-text-color);
+    text-decoration: none;
+    transition: .3s all ease-in-out;
+    font-size: 20px;
+    animation: fadeIn 1.5s ease-in;
+}
+
+.TeachingLink:hover {
+    transform: scale(1.05);
+    filter: blur(3px);
+}
+
+.Teaching ul li {
+    list-style-type: none;
+}
+
+.TeachPrimaryHeader {
+    font-size: 80px;
+}
+
+.TeachingSecondaryHeader {
+    font-size: 40px;
+    margin: 20px 0;
+}
